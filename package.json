@@ -1,0 +1,36 @@
+{
+  "name": "@tonntr/rolldown-plugin-svg-loader",
+  "version": "0.0.1",
+  "description": "Rolldown plugin to import svg.",
+  "author": "savkov.andrei@gmail.com",
+  "license": "MIT",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toNNtr/rolldown-plugin-svg-loader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/toNNtr/rolldown-plugin-svg-loader/issues"
+  },
+  "type": "module",
+  "keywords": [
+    "rolldown-plugin",
+    "svg-loader",
+    "svg",
+    "package"
+  ],
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "rolldown": "^1.0.0-rc.18",
+    "typescript": "^6.0.2"
+  }
+}
